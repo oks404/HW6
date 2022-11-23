@@ -28,10 +28,11 @@ public class Main {
         for (int f = 1; f <= 512; f = f * 2){
             System.out.println(f);
         }
-//  Задание 3.1
+//  Задание 3.1/3.2
         int salary = 29000;
         int total = 0;
         for (int g = 1; g <= 12; g++){
+            total = total + total/100;
             total = total + salary;
             System.out.println("Месяц " + g + " сумма накоплений - " + total);
         }
